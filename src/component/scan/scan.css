@@ -1,0 +1,59 @@
+.scan{
+    margin-top: 10vh;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: -1000;
+}
+
+.box{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border-radius: 3px;
+    border-radius: 1px solid rgba(0,0,0);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), -4px 4px 8px rgba(0, 0, 0, 0.2), 0 8px 12px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.video{
+    width: 100%;
+    height: 375px;
+    border: 2px solid #9BBEC8;
+}
+.preview{
+    width: 100%;
+    height: 350px;
+    background-color: #9BA5B7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    align-self: flex-start;
+    margin-bottom: 40px;
+}
+
+.actual-file-input {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    pointer-events: none;
+  }
+  
+  .custom-file-input {
+    text-align: center;
+    display: inline-block;
+    padding: 8px 16px;
+    height: 20px;
+    cursor: pointer;
+    background-color: #FFF;
+    border: 2px solid #00b4d8;
+    color: #00b4d8;
+    border-radius: 4px;
+  }
